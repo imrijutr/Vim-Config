@@ -1,0 +1,65 @@
+"  ========================
+" ||General Settings Start||
+"  ========================
+
+set number	
+set linebreak
+set showbreak=+++ 	
+set textwidth=100	
+set showmatch
+ 
+set hlsearch	
+set smartcase	
+set ignorecase	
+set incsearch	
+ 
+set autoindent	
+set shiftwidth=4	
+set smartindent	
+set smarttab	
+set softtabstop=4	
+ 
+set ruler	
+ 
+set autowriteall	
+ 
+set undolevels=1000 
+set backspace=indent,eol,start	
+"=======================
+"||General Settings End||
+"=======================
+
+"++++++++++++++++++++++"
+"Plug (Plugin Install)
+"++++++++++++++++++++++"
+
+call plug#begin('~/.vim/plugged') "Calling the pluggin folder
+
+Plug 'flazz/vim-colorschemes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'preservim/nerdtree'
+
+call plug#end()
+
+"======================
+"|| Interface Settings||
+"======================
+
+set encoding=UTF-8
+set background=dark
+colorscheme Monokai
+set guifont=DroidSansMono\ Nerd\ Font\ Book\ 12
+
+"==================
+"|| Airline Config||
+"==================
+
+let g:airline_powerline_fonts = 1
+
+"==================
+"||NERDTree Config|
+"==================
+nnoremap <C-n> :NERDTreeToggle<CR> 
+" Ctrl + n triggers NERDTree 
