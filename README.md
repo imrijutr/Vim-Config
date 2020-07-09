@@ -7,3 +7,5 @@ Beautiful vim configuration ( Vim 8.2)
 - NerdTree
 - Airline/AirlineThemes
 
+#### Package Manager used ```Vim-Plug```
+
