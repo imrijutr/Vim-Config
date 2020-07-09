@@ -8,4 +8,5 @@ Beautiful vim configuration ( Vim 8.2)
 - Airline/AirlineThemes
 
 #### Package Manager used ```Vim-Plug```
+#### Colorscheme set to ```gruvbox```
 
